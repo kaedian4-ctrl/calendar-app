@@ -10,9 +10,9 @@
 <body>
     <div class="calendar">
         <div class="header">
-            <button class="prev" onclick="prevMonth()">&#10094;</button>
+            <button type="button" class="prev" aria-label="Previous month" onclick="prevMonth()">&#10094;</button>
             <div class="monthYear" id="monthYear"></div>
-            <button class="next" onclick="nextMonth()">&#10095;</button>
+            <button type="button" class="next" aria-label="Next month" onclick="nextMonth()">&#10095;</button>
         </div>
 
         <div class="days">
@@ -28,7 +28,7 @@
         <div class="dates" id="dates"></div>
     </div>
 
-    <div class="reset" onclick="originalMonth()">Reset</div>
+    <button type="button" class="reset" aria-label="Return to current month" onclick="originalMonth()">Reset</button>
 
 
 </body>

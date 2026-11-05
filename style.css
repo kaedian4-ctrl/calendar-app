@@ -125,14 +125,16 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 15px;
+    padding: 15px 35px;
     margin: 20px;
     background: white;
     cursor: pointer;
     border-radius: 10px;
-    font-size: x-large;
+    font: inherit;
+    font-size: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 1px 8px rgba(0, 0, 0, 0.2);
     transition: all 1s ease;
+    border: none;
 }
 
 .reset:hover {
