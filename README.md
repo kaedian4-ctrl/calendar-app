@@ -2,6 +2,9 @@
 
 A small browser calendar that displays the days of each month and highlights today's date. Use the arrows to move between months, including across years, or select **Reset** to return to the current month.
 
+## Live Demo
+[Try the calendar app] https://kaedian4-ctrl.github.io/calendar-app/
+
 ## Run locally
 
 Open `index.html` in a web browser. No build tools or dependencies are required.
