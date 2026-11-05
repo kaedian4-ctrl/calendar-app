@@ -94,3 +94,41 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@media (max-width: 600px) {
+    .calendar {
+        padding: 16px;
+        gap: 8px;
+    }
+
+    .header {
+        padding: 8px;
+    }
+
+     .days {
+        grid-auto-rows: 36px;
+        column-gap: 4px;
+        row-gap: 8px;
+    }
+
+    .day {
+        padding: 2px;
+        font-size: 13px;
+    }
+
+    .monthYear {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    .prev,
+    .next {
+        width: 36px;
+        height: 36px;
+    }
+
+    .day {
+        font-size: 12px;
+    }
+}
