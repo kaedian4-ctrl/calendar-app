@@ -10,9 +10,9 @@
 <body>
     <div class="calendar">
         <div class="header">
-            <button id="prev" class="prev" onclick="prevMonth()">&#10094;</button>
+            <button class="prev" onclick="prevMonth()">&#10094;</button>
             <div class="monthYear" id="monthYear"></div>
-            <button id="next" class="next" onclick="nextMonth()">&#10095;</button>
+            <button class="next" onclick="nextMonth()">&#10095;</button>
         </div>
 
         <div class="days">
@@ -28,7 +28,7 @@
         <div class="dates" id="dates"></div>
     </div>
 
-    <div id="reset" class="reset">Reset</div>
+    <div class="reset" onclick="originalMonth()">Reset</div>
 
 
 </body>

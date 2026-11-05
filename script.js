@@ -63,3 +63,8 @@ const nextMonth = () => {
     initialOffset++;
     buildUI(initialOffset);
 };
+
+const originalMonth = () => {
+    initialOffset = 0;
+    buildUI(initialOffset);
+};
