@@ -48,11 +48,11 @@ body {
 }
 
 .prev:hover {
-    transform: translateX(3px);
+    transform: translateX(2px);
 }
 
 .next:hover {
-    transform: translateX(-3px);
+    transform: translateX(-2px);
 }
 
 .days {
